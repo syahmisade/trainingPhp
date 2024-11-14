@@ -14,3 +14,5 @@ Study and try training for PHP and YII2 (or maybe including YII)
 
 ## Settle
 1. Understanding the use of the OpenAI + ChatGPT 
+
+## Testing
