@@ -16,3 +16,4 @@ Study and try training for PHP and YII2 (or maybe including YII)
 1. Understanding the use of the OpenAI + ChatGPT 
 
 ## Testing
+'cookieValidationKey' => 'dd37aa31d5a84e3e02fb4e8d3a41b8f2229b22ae7d68523131ede5012280895f'
