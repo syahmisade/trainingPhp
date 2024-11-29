@@ -5,7 +5,10 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
-    'basePath' => dirname(__DIR__),
+    'name' => 'Cuba try test', // Change the name of the application
+    'basePath' => dirname(__DIR__), 
+    // 'layout' => 'main', // Change the layout of the application
+    'defaultRoute' => 'site/index', // Change the default route of the application
     'bootstrap' => ['log'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
