@@ -118,11 +118,18 @@ class SiteController extends Controller
 
     /**
      * Displays about page.
+     * 
+     * My first testing
      *
      * @return string
      */
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionHello($message)
+    {
+        return $this->render('hello', ['msg' => $message]);
     }
 }
