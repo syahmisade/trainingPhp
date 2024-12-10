@@ -1,8 +1,18 @@
 <?php
 
-// Testing my own web
-/* @var $this yii\web\View */
-?>
+/** @var yii\web\View $this */
 
-<!-- http://localhost/trainingPhp/studyyii/web/site/hello?message=test -->
-<h1>hello there! <?php echo $msg; ?></h1> 
+use yii\helpers\Html;
+
+$this->title = 'Hello';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="site-about">
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <p>
+        This is the Hello page. You may modify the following file to customize its content:
+    </p>
+
+    <code><?= __FILE__ ?></code>
+</div>
