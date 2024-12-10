@@ -132,4 +132,9 @@ class SiteController extends Controller
     {
         return $this->render('hello');
     }
+
+    public function actionCrud()
+    {
+        return $this->render('crud');
+    }
 }
