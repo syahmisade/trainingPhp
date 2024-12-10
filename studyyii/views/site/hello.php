@@ -1,18 +1,20 @@
 <?php
 
-/** @var yii\web\View $this */
-
 use yii\helpers\Html;
+use yii\widgets\ActiveForm;
 
-$this->title = 'Hello';
-$this->params['breadcrumbs'][] = $this->title;
+/** @var yii\web\View $this */
+/** @var app\models\TestingForm $model */
+/** @var ActiveForm $form */
 ?>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="site-hello">
 
-    <p>
-        This is the Hello page. You may modify the following file to customize its content:
-    </p>
+    <?php $form = ActiveForm::begin(); ?>
 
-    <code><?= __FILE__ ?></code>
-</div>
+    
+        <div class="form-group">
+            <?= Html::submitButton('Submit', ['class' => 'btn btn-primary']) ?>
+        </div>
+    <?php ActiveForm::end(); ?>
+
+</div><!-- site-hello -->
